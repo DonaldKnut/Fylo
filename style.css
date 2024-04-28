@@ -574,6 +574,15 @@ footer {
 }
 
 /* ----- MEDIA QUERY == 1024px / RESPONSIVE ----- */
+@media (min-width: 900px) {
+  .mobile-img {
+    display: none;
+  }
+
+  /* .my_text {
+    color: black;
+  } */
+}
 @media only screen and (max-width: 1024px) {
   .featured-text {
     padding: 0;
@@ -639,9 +648,11 @@ footer {
   }
   .image,
   .image img {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
+    display: none;
   }
+
   .row {
     display: flex;
     flex-direction: column;
