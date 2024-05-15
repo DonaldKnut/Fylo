@@ -1268,6 +1268,12 @@ textarea {
     /* display: none; */
   }
 
+  .testimonial {
+    width: 273px;
+    height: 373px;
+    margin-bottom: 212px;
+  }
+
   .featured-text-btn_first {
     margin-bottom: 89px;
   }
